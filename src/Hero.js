@@ -1,6 +1,6 @@
 import React from "react";
 import phoneImg from "./images/KWP_2340.jpg";
-
+import Rotate from "react-reveal/Rotate";
 const Hero = () => {
   return (
     <section className="hero">
@@ -13,7 +13,9 @@ const Hero = () => {
           <button className="btn">Connect</button>
         </article>
         <article className="hero-images">
-          <img src={phoneImg} className="phone-img" alt="phone" />
+          <Rotate>
+            <img src={phoneImg} className="phone-img" alt="phone" />
+          </Rotate>
         </article>
       </div>
     </section>

@@ -7,20 +7,29 @@ import Projects from "./Projects";
 import About from "./About";
 import Stacks from "./Stacks";
 import Contact from "./contact";
+import Fade from "react-reveal/Fade";
+import Roll from "react-reveal/Roll";
+import Slide from "react-reveal/Slide";
 function App() {
   return (
     <>
-      <HeadWrapper>
-        <Navbar />
-        <Sidebar />
-        <Hero />
-      </HeadWrapper>
-      <Stacks />
-      <ProjectWrapper>
-        <Projects />
-      </ProjectWrapper>
-      <About />
-      <Contact />
+      <Fade>
+        <HeadWrapper>
+          <Navbar />
+          <Sidebar />
+          <Roll>
+            <Hero />
+          </Roll>
+        </HeadWrapper>
+        <Stacks />
+        <ProjectWrapper>
+          <Projects />
+        </ProjectWrapper>
+        <About />
+        <Slide>
+          <Contact />
+        </Slide>
+      </Fade>
     </>
   );
 }
