@@ -92,7 +92,10 @@ function App() {
         </article>
       </div>
       <button type="button" className="btn">
-        more info
+        Live Demo
+      </button>
+      <button type="button" className="btn">
+        Code Repo
       </button>
     </section>
   );
