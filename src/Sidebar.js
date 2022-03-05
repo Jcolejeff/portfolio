@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import { useGlobalContext } from "./context";
+import Contact from "./contact";
 import styled from "styled-components";
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
@@ -15,9 +16,10 @@ const Sidebar = () => {
           <FaTimes />
         </button>
         <Article>
-          <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
+          <h3>About</h3>
+          <h3>Projects</h3>
+          <h3>Contact</h3>
+          <Contact></Contact>
         </Article>
       </aside>
     </div>

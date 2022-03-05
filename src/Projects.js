@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
@@ -8,14 +8,16 @@ function App() {
     {
       id: "recAGJfiU4CeaV0HL",
       order: 3,
-      title: "QUIZ APP",
+      title: "TRIVIA APP",
       dates: "2022",
       duties: [
         "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
         "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
         "Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian.",
       ],
-      company: "quiz app,",
+      company: "trivia app,",
+      live: "https://trivia-plus.netlify.app/",
+      coderepo: "https://github.com/Jcolejeff/quizApp",
     },
     {
       id: "recIL6mJNfWObonls",
@@ -29,34 +31,40 @@ function App() {
         "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1",
       ],
       company: "movie look-up,",
+      live: "https://movie-look-up.netlify.app",
+      coderepo: "https://github.com/Jcolejeff/moive-look-up",
     },
     {
       id: "rec61x18GVY99hQq5",
       order: 1,
-      title: "NASA API",
+      title: "MARVEL COMICS LOOK-UP",
       dates: "2022",
       duties: [
         "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
         "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
         "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism.",
       ],
-      company: "nasa api,",
+      company: "marvel api,",
+      live: "https://jeffcole-marvel-db.netlify.app",
+      coderepo: "https://github.com/Jcolejeff/COMIC-api",
     },
     {
       id: "rec61x18GVY99hQq5",
       order: 1,
-      title: "FRONT-END MENTOR",
+      title: "Bookmark Extension",
       dates: "2022",
       duties: [
         "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
         "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
         "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism.",
       ],
-      company: "front-end mentor.",
+      company: "bookmark",
+      live: "https://bookmark-ce.netlify.app",
+      coderepo: "https://github.com/Jcolejeff/bookmark",
     },
   ];
 
-  const { company, dates, duties, title } = jobs[value];
+  const { duties, title, live, coderepo } = jobs[value];
   return (
     <section className="section">
       <div className="title">
@@ -92,10 +100,14 @@ function App() {
         </article>
       </div>
       <button type="button" className="btn">
-        Live Demo
+        <a href={live} target="_blank" rel="noopener noreferrer">
+          Live Demo
+        </a>
       </button>
       <button type="button" className="btn">
-        Code Repo
+        <a href={coderepo} target="_blank" rel="noopener noreferrer">
+          Code Repo
+        </a>
       </button>
     </section>
   );

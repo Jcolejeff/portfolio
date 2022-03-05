@@ -207,18 +207,21 @@ Stripe Styles
   max-width: var(--max-width);
   display: grid;
   align-items: center;
+  text-align: center;
 }
 
 .hero-info h1 {
   text-transform: none;
   max-width: 500px;
   margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
 }
 .hero-info p {
   max-width: 35em;
   line-height: 1.8;
 }
-.hero-images {
+.phone-img {
   display: none;
 }
 
@@ -283,6 +286,7 @@ Stripe Styles
   .phone-img {
     width: 12rem;
     border-radius: 0.4rem;
+    display: block;
   }
 }
 
@@ -301,6 +305,7 @@ Stripe Styles
   }
   .phone-img {
     width: 15rem;
+    display: block;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -309,6 +314,7 @@ Stripe Styles
   }
   .phone-img {
     width: 17rem;
+    display: block;
   }
 }
 
