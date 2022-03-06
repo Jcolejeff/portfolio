@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./images/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { useGlobalContext } from "./context";
 
@@ -9,6 +8,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="nav-center">
         <div className="nav-header">
+          <h4>ikwuh Jeffery</h4>
           <button className="btn toggle-btn" onClick={openSidebar}>
             <FaBars />
           </button>

@@ -67,11 +67,11 @@ const ProjectWrapper = styled.section`
 
   /*
 =============== 
-Jobs
+Projects
 ===============
 */
 
-  .jobs-center {
+  .Projects-center {
     width: 80vw;
     margin: 0 auto;
     max-width: var(--max-width);
@@ -83,7 +83,7 @@ Jobs
     margin-bottom: 4rem;
     flex-wrap: wrap;
   }
-  .job-btn {
+  .Project-btn {
     background: transparent;
     border-color: transparent;
     text-transform: capitalize;
@@ -96,7 +96,7 @@ Jobs
     line-height: 1;
     outline-color: var(--clr-primary-10);
   }
-  .job-btn:hover {
+  .Project-btn:hover {
     color: var(--clr-primary-5);
     box-shadow: 0 2px var(--clr-primary-5);
   }
@@ -105,10 +105,10 @@ Jobs
     box-shadow: 0 2px var(--clr-primary-5);
   }
 
-  .job-info h3 {
+  .Project-info h3 {
     font-weight: 400;
   }
-  .job-info h4 {
+  .Project-info h4 {
     text-transform: uppercase;
     color: var(--clr-grey-5);
     background: var(--clr-grey-9);
@@ -116,25 +116,25 @@ Jobs
     padding: 0.375rem 0.75rem;
     border-radius: var(--radius);
   }
-  .job-date {
+  .Project-date {
     letter-spacing: var(--spacing);
   }
-  .job-desc {
+  .Project-desc {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
     align-items: center;
     margin-bottom: 1.25rem;
   }
-  .job-desc p {
+  .Project-desc p {
     margin-bottom: 0;
     color: var(--clr-grey-3);
   }
-  .job-icon {
+  .Project-icon {
     color: var(--clr-primary-5);
   }
   @media screen and (min-width: 992px) {
-    .jobs-center {
+    .Projects-center {
       width: 90vw;
       display: grid;
       grid-template-columns: 200px 1fr;
@@ -144,13 +144,13 @@ Jobs
       flex-direction: column;
       justify-content: flex-start;
     }
-    .job-btn {
+    .Project-btn {
       margin-bottom: 1rem;
     }
     .active-btn {
       box-shadow: -2px 0 var(--clr-primary-5);
     }
-    .job-btn:hover {
+    .Project-btn:hover {
       box-shadow: -2px 0 var(--clr-primary-5);
     }
   }
@@ -196,10 +196,13 @@ const HeadWrapper = styled.main`
       width: 95vw;
     }
   }
+  .Profile-img {
+    display: none;
+  }
 
   /*
 =============== 
-Stripe Styles
+Styles
 ===============
 */
   .nav {
@@ -240,7 +243,21 @@ Stripe Styles
   .signin-btn {
     display: none;
   }
-
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    margin-top: -5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background: rgb(238, 220, 174);
+    background: radial-gradient(
+      circle,
+      rgba(238, 220, 174, 1) 0%,
+      rgba(171, 230, 210, 1) 75%,
+      rgba(148, 233, 222, 1) 100%
+    );
+  }
   .hero {
     min-height: 100vh;
     margin-top: -5rem;
@@ -253,12 +270,14 @@ Stripe Styles
     max-width: var(--max-width);
     display: grid;
     align-items: center;
+    text-align: center;
   }
 
   .hero-info h1 {
     text-transform: none;
     max-width: 500px;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
   }
   .hero-info p {
     max-width: 35em;
@@ -268,7 +287,7 @@ Stripe Styles
     display: block;
     width: 8rem;
   }
-  .phone-img {
+  .Profile-img {
     width: 70%;
     border-radius: 100%;
     margin-inline-start: 15rem;
@@ -278,9 +297,8 @@ Stripe Styles
   /* nav media query */
   @media screen and (min-width: 800px) {
     .nav-center {
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      align-items: center;
+      display: flex;
+      justify-content: space-between;
     }
     .toggle-btn {
       display: none;
@@ -296,7 +314,6 @@ Stripe Styles
       text-align: center;
       height: 100%;
       display: grid;
-      align-items: center;
     }
     .nav-links li {
       height: 100%;
@@ -314,7 +331,7 @@ Stripe Styles
   }
 
   /* hero media query */
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 700px) {
     .hero::before {
       background-size: contain;
       height: 100%;
@@ -333,10 +350,11 @@ Stripe Styles
       display: block;
       justify-self: center;
     }
-    .phone-img {
+    .Profile-img {
       width: 12rem;
       border-radius: 1rem;
       margin-inline-start: 1rem;
+      display: block;
     }
   }
 
@@ -353,7 +371,7 @@ Stripe Styles
     .hero-images {
       align-self: end;
     }
-    .phone-img {
+    .Profile-img {
       width: 15rem;
     }
   }
@@ -361,7 +379,7 @@ Stripe Styles
     .hero-center {
       padding-bottom: 20vh;
     }
-    .phone-img {
+    .Profile-img {
       width: 17rem;
     }
   }

@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { AiFillHtml5 } from "react-icons/ai";
-import { FaCss3, FaReact } from "react-icons/fa";
+import { FaCss3, FaReact, FaGithub } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiStyledcomponents } from "react-icons/si";
 const Stacks = () => {
   return (
     <>
@@ -11,11 +10,21 @@ const Stacks = () => {
 
       <Wrapper>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Git</li>
+          <li>
+            HTML<AiFillHtml5></AiFillHtml5>{" "}
+          </li>
+          <li>
+            CSS<FaCss3></FaCss3>
+          </li>
+          <li>
+            Javascript<DiJavascript1></DiJavascript1>
+          </li>
+          <li>
+            React<FaReact></FaReact>
+          </li>
+          <li>
+            Git<FaGithub></FaGithub>
+          </li>
           <li>Styled-Component</li>
         </ul>
       </Wrapper>

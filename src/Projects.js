@@ -4,7 +4,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 // I SWITCHED TO PERMANENT DOMAIN
 function App() {
   const [value, setValue] = useState(0);
-  const jobs = [
+  const Projects = [
     {
       id: "recAGJfiU4CeaV0HL",
       order: 3,
@@ -64,35 +64,35 @@ function App() {
     },
   ];
 
-  const { duties, title, live, coderepo } = jobs[value];
+  const { duties, title, live, coderepo } = Projects[value];
   return (
     <section className="section">
       <div className="title">
         <h2>PROJECTS</h2>
         <div className="underline"></div>
       </div>
-      <div className="jobs-center">
+      <div className="Projects-center">
         {/* btn container */}
         <div className="btn-container">
-          {jobs.map((item, index) => {
+          {Projects.map((item, index) => {
             return (
               <button
                 key={item.id}
                 onClick={() => setValue(index)}
-                className={`job-btn ${index === value && "active-btn"}`}
+                className={`Project-btn ${index === value && "active-btn"}`}
               >
                 {item.company}
               </button>
             );
           })}
         </div>
-        {/* job info */}
-        <article className="job-info">
+        {/* Project info */}
+        <article className="Project-info">
           <h3>{title}</h3>
           {duties.map((duty, index) => {
             return (
-              <div key={index} className="job-desc">
-                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
+              <div key={index} className="Project-desc">
+                <FaAngleDoubleRight className="Project-icon"></FaAngleDoubleRight>
                 <p>{duty}</p>
               </div>
             );

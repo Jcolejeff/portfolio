@@ -9,19 +9,19 @@ const Hero = () => {
         <article className="hero-info">
           <Div>
             <Rotate>
-              <img src={phoneImg} alt="phone" />
+              <img src={phoneImg} alt="Profile" />
             </Rotate>
           </Div>
           <h1>
             Hi, i'm Jeffery <br />
-            frontend-Engineer
+            Frontend-Engineer
           </h1>
           <p>let's connect and work!!!</p>
           <button className="btn">Download CV</button>
         </article>
         <article className="hero-images">
           <Rotate>
-            <img src={phoneImg} className="phone-img" alt="phone" />
+            <img src={phoneImg} className="Profile-img" alt="Profile" />
           </Rotate>
         </article>
       </div>
