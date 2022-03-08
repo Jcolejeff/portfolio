@@ -16,9 +16,6 @@ const Sidebar = () => {
           <FaTimes />
         </button>
         <Article>
-          <h3>About</h3>
-          <h3>Projects</h3>
-          <h3>Contact</h3>
           <Contact></Contact>
         </Article>
       </aside>

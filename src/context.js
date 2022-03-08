@@ -22,7 +22,7 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
-// make sure use
+// exporting custom hook that returns store
 export const useGlobalContext = () => {
   return useContext(AppContext);
 };

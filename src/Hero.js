@@ -1,5 +1,5 @@
 import React from "react";
-import phoneImg from "./images/KWP_2340.jpg";
+import Img from "./images/KWP_2340.jpg";
 import Rotate from "react-reveal/Rotate";
 import styled from "styled-components";
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
         <article className="hero-info">
           <Div>
             <Rotate>
-              <img src={phoneImg} alt="Profile" />
+              <img src={Img} alt="Profile" />
             </Rotate>
           </Div>
           <h1>
@@ -21,7 +21,7 @@ const Hero = () => {
         </article>
         <article className="hero-images">
           <Rotate>
-            <img src={phoneImg} className="Profile-img" alt="Profile" />
+            <img src={Img} className="Profile-img" alt="Profile" />
           </Rotate>
         </article>
       </div>

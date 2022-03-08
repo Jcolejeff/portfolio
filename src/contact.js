@@ -4,11 +4,11 @@ import styled from "styled-components";
 const Contact = () => {
   return (
     <Div>
-      <h4>Connect With me</h4>
+      <h4 id="contact">Connect With me</h4>
       <List>
         <li>
           <a
-            href="
+            href="https://github.com/Jcolejeff
             
             "
           >
@@ -19,7 +19,7 @@ const Contact = () => {
         <li>
           <a
             href="
-            
+            https://www.linkedin.com/in/ikwuh-jeffery-813756215/
             "
           >
             <FaLinkedinIn />
@@ -28,7 +28,7 @@ const Contact = () => {
         <li>
           <a
             href="
-            
+            https://twitter.com/jeffery_ikwuh
             "
           >
             <FaTwitter />
@@ -37,7 +37,7 @@ const Contact = () => {
         <li>
           <a
             href="
-            
+            mailto:ikwuhj@gmail.com
             "
           >
             <FaMailBulk />

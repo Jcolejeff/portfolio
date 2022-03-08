@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <h3> ABOUT ME </h3> Lorem ipsum dolor sit amet consectetur adipisicing
       elit. Natus pariatur repellendus maxime suscipit doloremque assumenda quia
       est accusamus at voluptatem libero consequatur nulla blanditiis excepturi
