@@ -224,6 +224,13 @@ Styles
     justify-content: space-between;
     align-items: center;
   }
+  .nav-header h4 {
+    background-color: black;
+    color: aliceblue;
+    padding: 0.7rem;
+    border-radius: 100%;
+    font-weight: 500;
+  }
   .btn {
     font-size: 1rem;
     padding: 0.25rem 0.75rem;

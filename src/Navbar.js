@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="nav-center">
         <div className="nav-header">
-          <h4>ikwuh Jeffery</h4>
+          <h4>J.E</h4>
           <button className="btn toggle-btn" onClick={openSidebar}>
             <FaBars />
           </button>
