@@ -49,10 +49,27 @@ const Contact = () => {
 };
 const Div = styled.div`
   text-align: center;
-  margin: 4rem 2rem 2rem 2rem;
+  margin: 4rem 2rem 5rem 2rem;
   padding: 1rem;
   background-color: #e2c67e;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: absolute;
+  top: 2100px;
+  left: 10%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px white;
+  width: 70%;
+  @media (max-width: 600px) {
+    padding: 3rem;
+    position: absolute;
+    top: 2700px;
+    left: 4.7%;
+    width: 70%;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+  }
 `;
 const List = styled.ul`
   display: flex;

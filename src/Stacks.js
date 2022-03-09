@@ -5,10 +5,10 @@ import { FaCss3, FaReact, FaGithub } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 const Stacks = () => {
   return (
-    <>
-      <Header>CURRENT TECHNOLOGIES</Header>
+    <Wrapper>
+      <Header>Current Technologies</Header>
 
-      <Wrapper>
+      <>
         <ul>
           <li>
             HTML<AiFillHtml5></AiFillHtml5>{" "}
@@ -27,21 +27,51 @@ const Stacks = () => {
           </li>
           <li>Styled-Component</li>
         </ul>
-      </Wrapper>
-    </>
+      </>
+    </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
   font-size: 1.1rem;
   text-align: center;
+
+  padding: 3rem;
+  display: flex;
+  position: absolute;
+  top: 700px;
+  left: 1%;
+  width: 98%;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+  @media (max-width: 600px) {
+    padding: 1rem;
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 4.5%;
+    width: 90%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+  }
+
   ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
-    margin-block-start: 3rem;
+    margin-block-start: 2rem;
   }
   li {
     border: 1px solid black;
@@ -54,7 +84,7 @@ const Wrapper = styled.section`
 `;
 const Header = styled.h3`
   text-align: center;
-  margin-block-start: 3rem;
+  font-weight: 400;
 `;
 
 export default Stacks;

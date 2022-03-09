@@ -38,8 +38,32 @@ export default App;
 const ProjectWrapper = styled.section`
   .section {
     width: 90vw;
-    margin: 5rem auto;
+    margin: 3rem auto;
     max-width: var(--max-width);
+    padding: 3rem;
+    display: flex;
+    position: absolute;
+    top: 900px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    left: 10%;
+    @media (max-width: 600px) {
+      padding: 1rem;
+      display: flex;
+      position: absolute;
+      top: 1100px;
+      left: 5%;
+
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 10px;
+    }
   }
 
   @media screen and (min-width: 992px) {
