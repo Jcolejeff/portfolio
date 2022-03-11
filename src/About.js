@@ -21,9 +21,7 @@ const Section = styled.section`
   font-family: "Hubballi", cursive;
   font-weight: 600;
   max-width: 800px;
-  margin-inline-start: 2rem;
-  @media (min-width: 60em) {
-    margin-inline-start: 23rem;
-  }
+  margin: 0rem auto;
+  margin-block-start: 6rem;
 `;
 export default About;

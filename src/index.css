@@ -125,10 +125,11 @@ p {
 /* section */
 .section {
   width: 95vw;
-  margin: 5rem auto;
+  margin: 0rem auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   border-radius: 10px;
+  margin-block-start: 6rem;
 }
 
 @media screen and (min-width: 992px) {
