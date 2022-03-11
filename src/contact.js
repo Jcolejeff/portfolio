@@ -51,8 +51,12 @@ const Div = styled.div`
   text-align: center;
   margin: 4rem 2rem 2rem 2rem;
   padding: 1rem;
-  background-color: #e2c67e;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #e9c1a5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  a {
+    color: black;
+  }
 `;
 const List = styled.ul`
   display: flex;

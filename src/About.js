@@ -17,5 +17,13 @@ const About = () => {
 const Section = styled.section`
   text-align: center;
   font-size: 1.5rem;
+  width: 80%;
+  font-family: "Hubballi", cursive;
+  font-weight: 600;
+  max-width: 800px;
+  margin-inline-start: 2rem;
+  @media (min-width: 60em) {
+    margin-inline-start: 23rem;
+  }
 `;
 export default About;

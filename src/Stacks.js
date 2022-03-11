@@ -48,13 +48,15 @@ const Wrapper = styled.section`
     padding: 0.7rem;
     border-radius: 17px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: hsl(205, 78%, 60%);
+    background-color: var(--clr-primary-5);
     color: white;
   }
 `;
 const Header = styled.h3`
   text-align: center;
   margin-block-start: 3rem;
+  font-family: "Hubballi", cursive;
+  font-weight: 600;
 `;
 
 export default Stacks;

@@ -36,12 +36,6 @@ function App() {
 
 export default App;
 const ProjectWrapper = styled.section`
-  .section {
-    width: 90vw;
-    margin: 5rem auto;
-    max-width: var(--max-width);
-  }
-
   @media screen and (min-width: 992px) {
     .section {
       width: 95vw;
@@ -55,14 +49,15 @@ const ProjectWrapper = styled.section`
   .underline {
     width: 5rem;
     height: 0.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     background: var(--clr-primary-5);
     margin-left: auto;
     margin-right: auto;
   }
   .title {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
+    font-family: "Hubballi", cursive;
   }
 
   /*
@@ -173,6 +168,9 @@ Projects
     text-align: center;
     margin: 0 auto;
     margin-top: 3rem;
+    a {
+      color: aliceblue;
+    }
   }
   .btn:hover {
     color: var(--clr-primary-1);
@@ -210,7 +208,7 @@ Styles
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f1e3bf;
+    background: white;
     position: relative;
     z-index: 1;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -223,6 +221,12 @@ Styles
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .logodiv {
+    width: 30%;
+    img {
+      width: 100%;
+    }
   }
   .nav-header h4 {
     background-color: black;
@@ -257,13 +261,7 @@ Styles
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    background: rgb(238, 220, 174);
-    background: radial-gradient(
-      circle,
-      rgba(238, 220, 174, 1) 0%,
-      rgba(171, 230, 210, 1) 75%,
-      rgba(148, 233, 222, 1) 100%
-    );
+    background: white;
   }
   .hero {
     min-height: 100vh;
@@ -285,6 +283,7 @@ Styles
     max-width: 500px;
     margin-top: 2rem;
     font-size: 2rem;
+    font-family: "Hubballi", cursive;
   }
   .hero-info p {
     max-width: 35em;
@@ -320,7 +319,11 @@ Styles
       grid-template-columns: 1fr 1fr 1fr;
       text-align: center;
       height: 100%;
-      display: grid;
+      margin-top: 4rem;
+      margin-inline-start: 3rem;
+      a {
+        color: black;
+      }
     }
     .nav-links li {
       height: 100%;
@@ -433,22 +436,6 @@ Styles
   }
   .sidebar article {
     margin-bottom: 2rem;
-  }
-  .sidebar-sublinks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 0.25rem;
-  }
-  .sidebar-sublinks a {
-    display: block;
-    color: var(--clr-grey-1);
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-  }
-  .sidebar-sublinks svg {
-    color: var(--clr-grey-5);
-    margin-right: 1rem;
   }
 
   @media screen and (min-width: 800px) {

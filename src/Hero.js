@@ -17,7 +17,7 @@ const Hero = () => {
             Frontend-Engineer
           </h1>
           <p>let's connect and work!!!</p>
-          <button className="btn">Download CV</button>
+          <Button>Download CV</Button>
         </article>
         <article className="hero-images">
           <Rotate>
@@ -34,6 +34,7 @@ const Div = styled.div`
   width: 40%;
   margin-inline-start: 6rem;
   margin-block-start: 8rem;
+
   img {
     width: 100%;
 
@@ -43,4 +44,10 @@ const Div = styled.div`
   @media (min-width: 700px) {
     display: none;
   }
+`;
+const Button = styled.button`
+  background-color: black;
+  padding: 0.4rem;
+  color: aliceblue;
+  border-radius: 10px;
 `;
