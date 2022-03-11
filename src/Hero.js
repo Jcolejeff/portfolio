@@ -50,4 +50,8 @@ const Button = styled.button`
   padding: 0.4rem;
   color: aliceblue;
   border-radius: 10px;
+  @media (min-width: 60rem) {
+    margin-top: 1rem;
+    margin-right: 9rem;
+  }
 `;
