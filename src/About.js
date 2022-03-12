@@ -8,7 +8,7 @@ const About = () => {
 I'm jeffery ikwuh, I've always been fascinated by software development,
  which lead me to the university of jos where I'm currently
 In my 3rd year studying computer science
-my love of beautiful websites made me curious 
+my love of  webapps made me curious 
 about how they were made.
  after lots of googling, 
 i discovered web development 
