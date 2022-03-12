@@ -5,14 +5,14 @@ const About = () => {
   return (
     <Section id="about">
       <h3> ABOUT ME </h3> 
-I'm jeffery ikwuh, I've always been fascinated by software development,
- which lead me to the university of jos where I'm currently
-In my 3rd year studying computer science
-my love of  webapps made me curious 
-about how they were made.
+I'm Jeffery Ikwuh, I've always been fascinated by software development,
+ which lead me to the University of Jos where I'm currently
+In my 3rd year studying Computer Science.
+My love of webapps made me curious 
+about how they were made,
  after lots of googling, 
 i discovered web development 
-which led to my interest in frontend development.
+which led to my interest in frontend development,
  since then, i've been honing my 
 skills and building projects
  to apply what i've learnt.
