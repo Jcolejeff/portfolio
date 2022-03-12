@@ -4,12 +4,8 @@ import styled from "styled-components";
 const About = () => {
   return (
     <Section id="about">
-      <h3> ABOUT ME </h3> Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Natus pariatur repellendus maxime suscipit doloremque assumenda quia
-      est accusamus at voluptatem libero consequatur nulla blanditiis excepturi
-      nisi reprehenderit fuga placeat voluptate eum corrupti, sapiente vel.
-      Tenetur voluptate voluptatibus facilis aliquid, laborum optio nobis
-      inventore est omnis. Ab id aperiam illo nam.
+      <h3> ABOUT ME </h3> 
+my love of beautiful websites made me curious about how they were made. after lots of googling, i discovered web development which led to my interest in frontend development. since then, i've been honing my skills and building projects to apply what i've learnt.
     </Section>
   );
 };
