@@ -5,7 +5,17 @@ const About = () => {
   return (
     <Section id="about">
       <h3> ABOUT ME </h3> 
-my love of beautiful websites made me curious about how they were made. after lots of googling, i discovered web development which led to my interest in frontend development. since then, i've been honing my skills and building projects to apply what i've learnt.
+I'm jeffery ikwuh, I've always been fascinated by software development,
+ which lead me to the university of jos where I'm currently
+In my 3rd year studying computer science
+my love of beautiful websites made me curious 
+about how they were made.
+ after lots of googling, 
+i discovered web development 
+which led to my interest in frontend development.
+ since then, i've been honing my 
+skills and building projects
+ to apply what i've learnt.
     </Section>
   );
 };
