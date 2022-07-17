@@ -3,16 +3,27 @@ import Layout from "../components/layout";
 import ColorWord from "../components/color-word";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
-import Loading from "../components/Loading";
+
 import { useParams, Link } from "react-router-dom";
 import Projects from "../data";
 
 const ProjectTemplate = () => {
 	const { id } = useParams();
 	const project = Projects.find((item) => item.id === id);
-	const { title, dates } = project;
+	const {
+		title,
+		stack,
+		explanation,
+		image,
+		wrappingUp,
+		requirement,
+		challenge,
+		purpose,
+		live,
+		coderepo,
+	} = project;
 	return (
-		<Layout title="jeff">
+		<Layout>
 			<Fade>
 				<ColorWord color="grey">
 					<Link to="/">Go Back Home</Link>
@@ -35,9 +46,9 @@ const ProjectTemplate = () => {
 							<td>
 								<ColorWord color="orange">
 									<Stack>
-										<span>kdj</span>
-										<span>kdj</span>
-										<span>kdj</span>
+										{stack.map((item) => {
+											return <span key={item}>{item}</span>;
+										})}
 									</Stack>
 								</ColorWord>
 							</td>
@@ -49,7 +60,7 @@ const ProjectTemplate = () => {
 							</th>
 							<td>
 								<ColorWord color="green">
-									<a href="#">github repo</a>
+									<a href={coderepo}>github repo</a>
 								</ColorWord>
 							</td>
 						</tr>
@@ -60,14 +71,28 @@ const ProjectTemplate = () => {
 							</th>
 							<td>
 								<ColorWord color="green">
-									<a href="#">live site</a>
+									<a href={live}>live site</a>
 								</ColorWord>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 
-				{/* <ProjectContent dangerouslySetInnerHTML={{ __html: html }} /> */}
+				<ProjectContent>
+					<div>
+						<img src={image} alt="" srcset="" />
+					</div>
+					<h2>Purpose and Goal</h2>
+					<p>{purpose}</p>
+					<h2>general requirement</h2>
+					<p>{requirement}</p>
+					<h2>stack explanation</h2>
+					<p>{explanation}</p>
+					<h2>challenges</h2>
+					<p>{challenge}</p>
+					<h2>Wrapping Up</h2>
+					<p>{wrappingUp}</p>
+				</ProjectContent>
 
 				<OtherProjects>
 					<ColorWord color="grey">i also built</ColorWord>
@@ -84,6 +109,7 @@ export default ProjectTemplate;
 
 const Title = styled.h1`
 	font-size: var(--size-700);
+	margin-block-start: 1rem;
 `;
 
 const Stack = styled.div`

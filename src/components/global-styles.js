@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 *,
@@ -133,6 +133,8 @@ p {
 th {
   text-align: left;
   padding-right: 2rem;
+ 
+
 }
 
 ul {
