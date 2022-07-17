@@ -251,9 +251,6 @@ Styles
   .nav-links {
     display: none;
   }
-  .signin-btn {
-    display: none;
-  }
   .hero {
     position: relative;
     min-height: 100vh;
