@@ -17,7 +17,7 @@ const Hero = () => {
             Frontend-Engineer
           </h1>
           <p>let's connect and work!!!</p>
-          <Button>Download CV</Button>
+          <Button> <a href="https://drive.google.com/file/d/13mbZnxgmuCrAGULt0uTUzH51E6flJ_UA/view" target="_blank" rel="noopener noreferrer">Download CV</a></Button>
         </article>
         <article className="hero-images">
           <Rotate>
@@ -53,5 +53,8 @@ const Button = styled.button`
   @media (min-width: 60rem) {
     margin-top: 1rem;
     margin-right: 9rem;
+  }
+  a{
+   color: aliceblue;
   }
 `;
