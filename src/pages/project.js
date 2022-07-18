@@ -21,6 +21,7 @@ const ProjectTemplate = () => {
 		purpose,
 		live,
 		coderepo,
+		shortDesc,
 	} = project;
 	return (
 		<Layout>
@@ -30,12 +31,7 @@ const ProjectTemplate = () => {
 				</ColorWord>
 
 				<Title>{title}</Title>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-					doloremque laudantium architecto, tempore velit nisi odit commodi
-					consequuntur laborum possimus? Facilis quos inventore hic maxime,
-					perferendis quasi perspiciatis placeat laborum!
-				</p>
+				<p>{shortDesc}</p>
 
 				<table>
 					<tbody>

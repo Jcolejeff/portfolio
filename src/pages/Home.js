@@ -28,10 +28,10 @@ const Home = () => {
 				</h1>
 
 				<p>
-					on the internet, i go by <ColorWord color="pink">yinkakun</ColorWord>{" "}
-					[yinka <ColorWord color="grey">my first name</ColorWord> + kun{" "}
-					<ColorWord color="grey">japanese honorific for young men,</ColorWord>{" "}
-					get it?]
+					on the internet, i go by <ColorWord color="pink">jeffcole</ColorWord>{" "}
+					[jeff <ColorWord color="grey">my first name</ColorWord> + cole{" "}
+					<ColorWord color="grey">my favorite artist is jcole,</ColorWord> get
+					it?]
 				</p>
 
 				<p>
@@ -51,10 +51,10 @@ const Home = () => {
 				</p>
 
 				{Projects.map((item) => {
-					const { id, title, dates } = item;
+					const { id, title, shortDesc } = item;
 					return (
 						<p key={id}>
-							i built <ColorWord color="yellow">{title}</ColorWord>- {dates}{" "}
+							i built <ColorWord color="yellow">{title}</ColorWord>- {shortDesc}{" "}
 							<ColorWord color="blue">
 								<ProjectLink to={`/project/${id}`}>
 									{`>>> `}view project

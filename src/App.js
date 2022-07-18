@@ -1,11 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Route,
+	Routes,
+	useLocation,
+} from "react-router-dom";
 // import pages
 import Home from "./pages/Home";
 import SingleProject from "./pages/project";
 import Error from "./pages/404";
 
 const App = () => {
+	const location = useLocation();
 	return (
 		<Router>
 			<Routes>

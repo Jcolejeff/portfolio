@@ -6,7 +6,7 @@ const Projects = [
 	{
 		id: "recAGJfiU4CeaV0HL",
 		order: 3,
-		title: "Clasik Drip Wears",
+		title: "Clasik-Drip",
 		dates: "2022",
 		stack: [
 			"react",
@@ -19,6 +19,8 @@ const Projects = [
 			"react-markdown",
 			"react-paystack",
 		],
+		shortDesc:
+			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
 		explanation: "A React app for a clothing company",
 		image: image1,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
@@ -34,10 +36,12 @@ const Projects = [
 	{
 		id: "recIL6mJNfWObonls",
 		order: 2,
-		title: "Url Shortener -shortly",
+		title: "Shortly",
 		dates: "2022",
 		stack: ["react", "shortCode-api", "styled-components", "react-icons"],
 		explanation: "A React app for a clothing company",
+		shortDesc:
+			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
 		image: image2,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
 		requirement:
@@ -58,6 +62,8 @@ const Projects = [
 		explanation: "A React app for a clothing company",
 		image: image3,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
+		shortDesc:
+			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
 		requirement:
 			"lorom ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
 		challenge:
@@ -70,7 +76,7 @@ const Projects = [
 	{
 		id: "rec61x18GTU99hQq5",
 		order: 1,
-		title: "Eazy bank ",
+		title: "Eazy-bank-landing Page ",
 		dates: "2022",
 		stack: ["react", "styled-components", "react-icons"],
 		explanation: "A React app for a clothing company",
@@ -78,6 +84,8 @@ const Projects = [
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
 		requirement:
 			"lorom ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
+		shortDesc:
+			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
 		challenge:
 			" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
 		purpose:

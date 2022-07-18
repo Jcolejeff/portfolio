@@ -11,10 +11,10 @@ const Layout = ({ children, title, description }) => {
 		<ThemeProvider theme={theme}>
 			<Fragment>
 				<GlobalStyle />
-				<dir>
+				<div>
 					<h2>{title}</h2>
 					<p>{description}</p>
-				</dir>
+				</div>
 				<LayoutWrapper
 					layout
 					initial={{
