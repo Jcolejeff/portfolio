@@ -25,7 +25,7 @@ const ProjectTemplate = () => {
 	} = project;
 	return (
 		<Layout>
-			<Fade>
+			<Fade bottom>
 				<ColorWord color="grey">
 					<Link to="/">Go Back Home</Link>
 				</ColorWord>

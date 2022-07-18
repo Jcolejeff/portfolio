@@ -26,7 +26,7 @@ const Layout = ({ children, title, description }) => {
 					exit={{
 						opacity: 0,
 					}}
-					transition={{ duration: 0.3, ease: "easeInOut" }}
+					transition={{ duration: 0.4, ease: "easeInOut" }}
 				>
 					<Container>{children}</Container>
 				</LayoutWrapper>
