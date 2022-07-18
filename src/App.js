@@ -11,7 +11,6 @@ import SingleProject from "./pages/project";
 import Error from "./pages/404";
 
 const App = () => {
-	const location = useLocation();
 	return (
 		<Router>
 			<Routes>
