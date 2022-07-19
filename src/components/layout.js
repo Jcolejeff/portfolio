@@ -43,5 +43,9 @@ const LayoutWrapper = styled(motion.main)`
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+
 	justify-content: center;
+	.built-by-me {
+		padding-bottom: var(--size-900);
+	}
 `;

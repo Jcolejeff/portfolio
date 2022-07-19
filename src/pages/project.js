@@ -56,7 +56,9 @@ const ProjectTemplate = () => {
 							</th>
 							<td>
 								<ColorWord color="green">
-									<a href={coderepo}>github repo</a>
+									<a href={coderepo} target="_blank" rel="noopener noreferrer">
+										github repo
+									</a>
 								</ColorWord>
 							</td>
 						</tr>
@@ -67,7 +69,9 @@ const ProjectTemplate = () => {
 							</th>
 							<td>
 								<ColorWord color="green">
-									<a href={live}>live site</a>
+									<a href={live} target="_blank" rel="noopener noreferrer">
+										live site
+									</a>
 								</ColorWord>
 							</td>
 						</tr>
@@ -94,6 +98,9 @@ const ProjectTemplate = () => {
 					<ColorWord color="grey">i also built</ColorWord>
 					<ColorWord color="blue" key="5">
 						<a href="#">'kedd'</a>
+						<a href="#">'kedd'</a>
+						<a href="#">'kedd'</a>
+						<a href="#">'kedd'</a>
 					</ColorWord>
 				</OtherProjects>
 			</Fade>
@@ -116,6 +123,7 @@ const Stack = styled.div`
 
 const OtherProjects = styled.nav`
 	padding-top: var(--size-900);
+	padding-bottom: var(--size-900);
 	text-transform: lowercase;
 
 	span:not(:first-child):not(:last-child):after {

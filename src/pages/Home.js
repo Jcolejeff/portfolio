@@ -35,17 +35,18 @@ const Home = () => {
 				</p>
 
 				<p>
-					my love of beautiful websites made me curious about how they were
-					made. after lots of googling, i discovered web development which led
-					to my interest in frontend development. since then, i've been honing
-					my skills and building projects to apply what i've learnt.
+					I'm currently in my last lap of getting my degree in computer
+					science,I've developed a strong grasp of computer science and web
+					development ideas via my education and alot of online resources as
+					well, and I've spent a lot of my free time applying these concepts to
+					practical applications and scenarios.
 				</p>
 				<p>
 					my technical skills includes
 					<ColorWord color="orange">
 						{" "}
-						html & css, javascript, typescript, react, gatsby, eleventy, git,
-						graphql, styled-components, tailwindcss, chakra-ui,
+						html & css, javascript, react, strapi, auth0, git,
+						styled-components, tailwindcss, node.js,
 					</ColorWord>{" "}
 					and some other dot js libraries.
 				</p>
@@ -64,27 +65,26 @@ const Home = () => {
 					);
 				})}
 
-				{/* <p key="4">
-					i built <ColorWord color="yellow">kddkdk</ColorWord>- Lorem ipsum
-					dolor sit amet consectetur adipisicing elit. Atque est, ipsum
-					quibusdam unde fugit repellat corporis. Recusandae error voluptates,
-					ad, dicta, officiis suscipit cumque iste accusamus odio inventore ut
-					eveniet.
-					<ColorWord color="blue">
-						<ProjectLink to="/">{`>>> `}view project</ProjectLink>
-					</ColorWord>
-				</p> */}
-
 				<p>
 					i've built a few other cool stuffs too, checkout{" "}
 					<ColorWord color="green">
-						<a href="https://github.com/yinkakun">my github</a>
+						<a
+							href="https://github.com/Jcolejeff"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							my github
+						</a>
 					</ColorWord>
 				</p>
 				<p>
 					you can{" "}
 					<ColorWord color="green">
-						<a href="/yinka-adedire's-resume.pdf">
+						<a
+							href="https://drive.google.com/file/d/13mbZnxgmuCrAGULt0uTUzH51E6flJ_UA/view"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							have a look at my resume here
 						</a>
 					</ColorWord>
@@ -92,29 +92,50 @@ const Home = () => {
 				<p>
 					you can email me at{" "}
 					<ColorWord color="green">
-						<a href="mailto:yinkakun@gmail.com">yinkakun@gmail.com</a>
+						<a
+							href="mailto:ikwuhjefferye@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							ikwuhjefferye@gmail.com
+						</a>
 					</ColorWord>{" "}
 					or dm me on{" "}
 					<ColorWord color="green">
-						<a href="https://twitter.com/yinkakun">twitter</a>
+						<a
+							href="https://twitter.com/jeffery_ikwuh"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							twitter
+						</a>
 					</ColorWord>
 				</p>
 				<p>
-					apart from tech, i like to watch animes, binge watch tv series, read
-					novels.
+					apart from tech, i like to going to the gym, reading, and playing
+					music.
 				</p>
-				<p>
+				<p className="built-by-me">
 					<ColorWord color="grey">
 						built by me -{" "}
 						<ColorWord color="green">
-							<a href="https://twitter.com/yinkakun">yinka adedire</a>
+							<a
+								href="https://twitter.com/jeffery_ikwuh"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								ikwuh jeffery
+							</a>
 						</ColorWord>{" "}
-						with gatsbyjs for static site generation, the slide up animation
-						with react-reveal, styled using styled-components and the font
-						family, 'ibm plex mono' from google fonts. you're welcome to
-						checkout{" "}
+						with react-reveal slide up animation , styled using
+						styled-components and the font family, 'ibm plex mono' from google
+						fonts. you're welcome to checkout{" "}
 						<ColorWord color="green">
-							<a href="https://github.com/yinkakun/yinkakun-portfolio">
+							<a
+								href="https://github.com/Jcolejeff/portfolio"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								the sourcecode
 							</a>
 						</ColorWord>{" "}
