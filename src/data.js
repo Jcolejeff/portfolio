@@ -20,7 +20,7 @@ const Projects = [
 			"react-paystack",
 		],
 		shortDesc:
-			"an e-commerce website for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management.",
+			"an e-commerce webapp for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management.",
 		explanation: "A React app for a clothing company",
 		image: image1,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
@@ -41,7 +41,7 @@ const Projects = [
 		stack: ["react", "shortCode-api", "styled-components", "react-icons"],
 		explanation: "A React app for a clothing company",
 		shortDesc:
-			"a url shortener website,built with react, styled-components, and coupled with shortCode-api for shortening urls.",
+			"a url shortener webapp,built with react, styled-components, and coupled with shortCode-api for shortening urls.",
 		image: image2,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
 		requirement:
