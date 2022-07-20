@@ -20,7 +20,7 @@ const Projects = [
 			"react-paystack",
 		],
 		shortDesc:
-			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
+			"an e-commerce website for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management.",
 		explanation: "A React app for a clothing company",
 		image: image1,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
@@ -41,7 +41,7 @@ const Projects = [
 		stack: ["react", "shortCode-api", "styled-components", "react-icons"],
 		explanation: "A React app for a clothing company",
 		shortDesc:
-			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
+			"a url shortener website,built with react, styled-components, and coupled with shortCode-api for shortening urls.",
 		image: image2,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
 		requirement:
@@ -58,12 +58,12 @@ const Projects = [
 		order: 1,
 		title: "Quizzles",
 		dates: "2022",
-		stack: ["react", "styled-components", "Opentd Api", "react-reveal"],
+		stack: ["react", "styled-components", "Open-TBD Api", "react-reveal"],
 		explanation: "A React app for a clothing company",
 		image: image3,
 		wrappingUp: "loremLorem ipsum dolor sit amet consectetur adipisicing elit ",
 		shortDesc:
-			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
+			"a fun interactive quiz web app, built with react, styled-components, and coupled with Open-TBD Api for quiz questions.",
 		requirement:
 			"lorom ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
 		challenge:
@@ -85,7 +85,7 @@ const Projects = [
 		requirement:
 			"lorom ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
 		shortDesc:
-			"lorem kddkjdkds dlkdj dkj dkdk dkdk dk dkdkaoi akdk dkdd dkdkaoi akdk dkdd kd d dj dl akdj alkdj dkaj dkalkdjdpod  od dop",
+			"a landing page for a fictitious bank, built with react, styled-components",
 		challenge:
 			" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi",
 		purpose:

@@ -35,7 +35,7 @@ const Home = () => {
 				</p>
 
 				<p>
-					I'm currently in my last lap of getting my degree in computer
+					I'm currently in the last lap of getting my degree in computer
 					science,I've developed a strong grasp of computer science and web
 					development ideas via my education and alot of online resources as
 					well, and I've spent a lot of my free time applying these concepts to
@@ -45,7 +45,7 @@ const Home = () => {
 					my technical skills includes
 					<ColorWord color="orange">
 						{" "}
-						html & css, javascript, react, strapi, auth0, git,
+						html & css, javascript, react, strapi, auth0, git, github,
 						styled-components, tailwindcss, node.js,
 					</ColorWord>{" "}
 					and some other dot js libraries.
