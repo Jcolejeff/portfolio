@@ -28,10 +28,9 @@ const Home = () => {
 				</h1>
 
 				<p>
-					on the internet, i go by <ColorWord color="pink">jeffcole</ColorWord>{" "}
-					[jeff <ColorWord color="grey">my first name</ColorWord> + cole{" "}
-					<ColorWord color="grey">my favorite artist is jcole,</ColorWord> get
-					it?]
+					on the internet, i go by <ColorWord color="pink">jeffcole</ColorWord>.{" "}
+					i've always been the 'computer guy' even back in high school,i guess
+					i've always been fascinated by technology
 				</p>
 
 				<p>
@@ -117,17 +116,7 @@ const Home = () => {
 				</p>
 				<p className="built-by-me">
 					<ColorWord color="grey">
-						built by me -{" "}
-						<ColorWord color="green">
-							<a
-								href="https://twitter.com/jeffery_ikwuh"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								ikwuh jeffery
-							</a>
-						</ColorWord>{" "}
-						with react-reveal slide up animation , styled using
+						built with - react-reveal slide up animation , styled using
 						styled-components and the font family, 'ibm plex mono' from google
 						fonts. you're welcome to checkout{" "}
 						<ColorWord color="green">

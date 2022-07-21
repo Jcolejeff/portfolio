@@ -80,7 +80,7 @@ const ProjectTemplate = () => {
 
 				<ProjectContent>
 					<div>
-						<img src={image} alt="" srcset="" />
+						<img src={image} alt="project" />
 					</div>
 					<h2>Purpose and Goal</h2>
 					<p>{purpose}</p>
@@ -95,13 +95,15 @@ const ProjectTemplate = () => {
 				</ProjectContent>
 
 				<OtherProjects>
-					<ColorWord color="grey">i also built</ColorWord>
-					<ColorWord color="blue" key="5">
-						<a href="#">'kedd'</a>
-						<a href="#">'kedd'</a>
-						<a href="#">'kedd'</a>
-						<a href="#">'kedd'</a>
-					</ColorWord>
+					<ColorWord color="grey">i also built </ColorWord>
+					{Projects.filter((items) => items.id !== id).map((project) => {
+						const { id, title } = project;
+						return (
+							<ColorWord color="blue" key={id}>
+								<Link to={`/project/${id}`}>{title}</Link>
+							</ColorWord>
+						);
+					})}
 				</OtherProjects>
 			</Fade>
 		</Layout>
