@@ -27,7 +27,7 @@ const Projects = [
 		requirement:
 			" In order for me to consider this initiative successful, I had a few criteria in mind.The resultant website must, at the very least, be quick and responsive ,include a few basic animations, and be simple enough for a non-technical person to edit.",
 		challenge:
-			"I encountered a few hiccups along the way, as with most projects. The organization and structure of the code proved to be one of the more challenging aspects. I became aware of the need of keeping an orderly framework due to the size of this project.I made a concerted effort to make components as reusable as possible and deplaying strapi to heroku was quite the challenge , but nothing alot of googling didn't help with  ",
+			"I encountered a few hiccups along the way, as with most projects. The organization and structure of the code proved to be one of the more challenging aspects. I became aware of the need of keeping an orderly framework due to the size of this project.I made a concerted effort to make components as reusable as possible and deploying strapi to heroku was quite the challenge , but nothing alot of googling didn't help with  ",
 		purpose:
 			"My friend who has an online boutique , but only sells on whatsapp and instagram , i saw the need for an e-commerce store that would enable her to showcase her products in a more structured and streamlined manner,the goal was to build a webapp that was secure,could accept online payment and was user friendly ",
 		live: "https://clasikdrip.com/",
