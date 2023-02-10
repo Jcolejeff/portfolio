@@ -6,7 +6,7 @@ const NotFoundPage = () => {
 	return (
 		<Layout>
 			<h1>404</h1>
-			<p>oopsie! the page you're looking for does not exist</p>
+			<p>oopsie! the page you're looking for does not exist,</p>
 			<Link to="/">Go Home</Link>
 		</Layout>
 	);

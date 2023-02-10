@@ -18,9 +18,9 @@ const Projects = [
 			"react-paystack",
 		],
 		shortDesc:
-			"an e-commerce webApp for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management.",
+			"an e-commerce webApp for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management..",
 		explanation:
-			"After checking several headless cms, I decided to choose Strapi because of its simple and intuitive content editor ,I wanted the site to have some simple animation too, I used React reveal for that.CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular.",
+			"After checking several headless cms, I decided to choose Strapi because of its simple and intuitive content editor ,I wanted the site to have some simple animation too, I used React reveal for that.CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular..",
 		image: image1,
 		wrappingUp:
 			"This project marked a number of firsts for me, including my introduction to strapi and auth0 I increased my use of git, strengthened my knowledge of react.I could go on and on about the lessons I learnt while working on this project, but the most significant ones were my improved knowledge of React Hooks, Git administration, User authentication, and API integration.",
