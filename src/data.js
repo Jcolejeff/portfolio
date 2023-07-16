@@ -1,97 +1,83 @@
-import image1 from "./assets/images/clasikdrip (2).png";
-import image2 from "./assets/images/shortly.png";
-import image3 from "./assets/images/quizzles.png";
-import image4 from "./assets/images/esaybank.png";
+import image1 from "./assets/images/burh.png";
+import image2 from "./assets/images/carsng.png";
+import image3 from "./assets/images/coverly.png";
 const Projects = [
 	{
 		id: "recAGJfiU4CeaV0HL",
-		title: "Clasik-Drip",
+		title: "Burtech Products",
 		stack: [
 			"react",
 			"styled-components",
-			"strapi",
-			"auth0",
-			"react-reveal",
+			"chakra ui",
+			"django",
+			"redux-toolkit",
 			"react-router",
 			"react-icons",
 			"react-markdown",
-			"react-paystack",
 		],
 		shortDesc:
-			"an e-commerce webApp for clothes and accessories, built with react, styled-components, react-paystack, and coupled with strapi cms for content management..",
+			"an e-commerce web-app for a manufacturing company, built with react, styled-components, chakra ui , redux toolkit, and coupled with a django rest api for the backend.",
 		explanation:
-			"After checking several headless cms, I decided to choose Strapi because of its simple and intuitive content editor ,I wanted the site to have some simple animation too, I used React reveal for that.CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular..",
+			"React was selected as the primary JavaScript library for its component-based architecture and efficient rendering capabilities. styled-components was chosen for its ability to write CSS directly in JavaScript. Chakra UI was utilized to enhance the user interface design. Django, a high-level Python web framework, was employed for back-end development due to its robust features. Redux Toolkit was integrated for efficient state management. React Router was used for routing within the application. React Icons provided a library of icons for easy integration, and React Markdown facilitated rendering Markdown content within the application.",
 		image: image1,
 		wrappingUp:
-			"This project marked a number of firsts for me, including my introduction to strapi and auth0 I increased my use of git, strengthened my knowledge of react.I could go on and on about the lessons I learnt while working on this project, but the most significant ones were my improved knowledge of React Hooks, Git administration, User authentication, and API integration.",
+			"we collaborated to develop the website using React. We enhanced our React skills, improved Git administration for smooth collaboration, implemented user authentication, and integrated APIs for enhanced functionality. It was a valuable learning experience that helped us grow as developers.",
 		requirement:
-			" In order for me to consider this initiative successful, I had a few criteria in mind.The resultant website must, at the very least, be quick and responsive ,include a few basic animations, and be simple enough for a non-technical person to edit.",
+			"In order for this initiative to be considered successful, there were several criteria that needed to be met. The resultant website had to be quick and responsive, incorporating a few basic animations, while also being user-friendly for non-technical individuals to make edits easily. These requirements ensured that the website would deliver an optimal user experience, with fast loading times, engaging visual elements, and the ability for the client to update content effortlessly. By meeting these criteria, the project would achieve its intended goals and provide a successful solution for the client.",
 		challenge:
-			"I encountered a few hiccups along the way, as with most projects. The organization and structure of the code proved to be one of the more challenging aspects. I became aware of the need of keeping an orderly framework due to the size of this project.I made a concerted effort to make components as reusable as possible and deploying strapi to heroku was quite the challenge , but nothing alot of googling didn't help with  ",
+			"During the team project for Burtech, we encountered various challenges related to organizing the codebase, integrating the chosen technology stack (including React, styled-components, Chakra UI, Django, Redux Toolkit, React Router, React Icons, and React Markdown), and ensuring optimal component reusability. However, through collaborative efforts, determination, and effective problem-solving, our team successfully navigated these challenges and delivered a high-quality solution for Burtech. ",
 		purpose:
-			"My friend who has an online boutique , but only sells on whatsapp and instagram , i saw the need for an e-commerce store that would enable her to showcase her products in a more structured and streamlined manner,the goal was to build a webapp that was secure,could accept online payment and was user friendly ",
-		live: "https://clasikdrip.com/",
+			"For Burtech, a manufacturing company client, our objective was to address the need for an enhanced online presence and operational efficiency. Our aim was to develop a secure, user-friendly web application that could facilitate seamless online payments while showcasing their products in a structured and streamlined manner. ",
+		live: "https://burtechproducts.com",
 		coderepo: "https://github.com/Jcolejeff/Clasik-Drip-Wears",
 	},
 	{
 		id: "recIL6mJNfWObonls",
-		title: "Shortly",
-		stack: ["react", "shortCode-api", "styled-components", "react-icons"],
+		title: "Cars.ng",
+		stack: ["php", "laravel", "fast api", "bootstrap"],
 		explanation:
 			"i used shortcode Api for the url shortening ,CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular.",
 		shortDesc:
-			"a url shortener webApp,built with react, styled-components, and coupled with shortCode-api for shortening urls.",
+			"is a Nigerian online car marketplace and solutions provider that connects car buyers and car sellers. Providing a vast inventory of new and used cars with their descriptions, quality images, affordable prices and car suggestions to make the search and purchase of the perfect vehicle in Nigeria effortless and enjoyable.",
 		image: image2,
 		wrappingUp:
-			"I learnt  to implement designs, I learnt some uselful CRUD operations ,Got more experience with react",
+			"In conclusion, this project presented an opportunity for me to enhance my skills and explore new technologies. I successfully implemented a redesigned frontend, migrated from MySQL to a fast API REST API, and improved SEO. By leveraging PHP with Laravel for backend development, Fast API for the REST API, Bootstrap for frontend design.",
 		requirement:
-			"As always, apart from the bare minimum that the resultant website must be fast and responsive. I had a few requirements in mind to be able to call this project a success.The resulting website must match the design on the design file, and also for users to be able to delete entries from the list of shortened urls",
+			"As always, apart from the bare minimum that the resultant website must be fast and responsive. I had a few requirements in mind to be able to call this project a success.The resulting website must match the design on the design file.",
 		challenge:
-			"It was fairly challenging building the project. The alert component gave a few headaches, after a lot of googling and checking online resources, I was able to tackle the issues",
+			"It was fairly challenging rewriting the project, but with a lot of googling and checking online resources, I was able to tackle the issues",
 		purpose:
-			"I wanted to get really good with working with Api's, and that's by building many projects. So I decided to build another react  project.before this project, the UIs of all the projects I've built were designed by me tinkering around until it looks good to me, I wanted to implement a design created by a professional designer and also have experience implementing a design file.So i went on front-end mentor to get an intermediate level challenge to tackle ",
-		live: "https://shortly-url-fem.netlify.app/",
+			"The purpose of this project was to rewrite the frontend, migrate from MySQL to a fast API REST API, and improve SEO. The goals included enhancing code quality, optimizing the user interface, boosting performance, introducing new features, and improving search engine optimization. By achieving these objectives, the project aimed to deliver an improved frontend application with better performance, seamless API integration, and enhanced visibility in search engine results.",
+		live: "https://cars.ng/",
 		coderepo: "https://github.com/Jcolejeff/url-shortner",
 	},
 	{
 		id: "rec61x18GVY99hQq5",
-		title: "Quizzles",
-		stack: ["react", "styled-components", "Open-TBD Api", "react-reveal"],
+		title: "Coverly",
+		stack: [
+			"react",
+			"tailwind",
+			"Gpt-3 Api",
+			"react-reveal",
+			"nodejs",
+			"express",
+			"mongodb",
+		],
 		explanation:
 			"Because of the simplicity of its state management and the variety of accessible packages, React was an obvious choice for this project.I used React-Reveal for the  animation because it's simple and fits in my use case , styled components for styling and Open TBD api to get the questions",
 		image: image3,
 		wrappingUp:
-			"I was able to build a game i really enjoyed  and I learned to alot as this project put my programming logic to a test.",
+			"In conclusion, this project successfully developed a cover letter generator app using React, Tailwind CSS, GPT-3 API, React Reveal, Node.js, Express.js, and MongoDB. The app provides a user-friendly interface, personalized cover letter generation, and engaging animations. The project achieved its goal of simplifying and enhancing the cover letter writing process using advanced technologies.",
 		shortDesc:
-			"a fun interactive quiz webApp, built with react, styled-components, and coupled with Open-TBD Api for quiz questions.",
+			"is an outstanding and efficient website that helps job seekers to generate cover letters for any position.  create unique Cover letters using AI",
 		requirement:
-			"I had a few requirements in mind to be able to call this project a success.Apart from the bare minimum that the generated website must be fast and responsive.The user interface should be minimal and beautiful and have simple animations",
+			"The project required developing a cover letter generator app with the capability to automatically generate personalized cover letters using Gtp 3. Integration with user-uploaded CV or resume was essential to extract relevant information. The app aimed to provide a user-friendly interface for easy navigation and access to high-quality cover letter content. Ensuring data security and privacy was also a key requirement.",
 		challenge:
-			"The api endpoint wasn't as easy to construct from the user input on the fly, but google again came to the rescue!!!.",
+			"One of the challenges we encountered was integrating and utilizing GPT-3 for cover letter generation. This involved understanding and optimizing the GPT-3 capabilities to generate high-quality and personalized cover letters. Additionally, fine-tuning the model and managing the API usage efficiently were areas that required careful attention.Extracting and integrating data from user-uploaded CV or resume, ensuring accurate language processing, and designing a user-friendly interface.",
 		purpose:
-			"i really like trivia games that stimulates and expand my knowledge , so i wanted to build one that would have a variety of topics",
-		live: "https://quizzles-plus.netlify.app/",
+			"The purpose of the project was to develop Coverly, a cover letter generator app that utilizes AI technology. The goal was to create unique and personalized cover letters for users based on their CV or resume, along with additional information. Coverly aimed to simplify the cover letter creation process and generate tailored cover letters that showcased the user's qualifications and individuality.",
+		live: "https://coverly.hng.tech/",
 		coderepo: "https://github.com/Jcolejeff/quizApp",
-	},
-	{
-		id: "rec83x18GTU99hHUI",
-		title: "Eazy-bank-landing Page ",
-		stack: ["react", "styled-components", "react-icons"],
-		explanation:
-			"CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular. ",
-		image: image4,
-		wrappingUp:
-			"i improved my skill of taking a design from concept to deployment,understanding more about react hooks and in general got more experience with react",
-		requirement:
-			"As always, apart from the bare minimum that the website must be fast and responsive. I had a few requirements in mind to be able to call this project a success.The resulting website must match the design on the design file.",
-		shortDesc:
-			"a landing page for a fictitious bank, built with react, styled-components",
-		challenge:
-			"It was fairly easy building the project.but i ran into some few issues with the mobile navigation ,but i'm glad it turned out fine",
-		purpose:
-			"The UIs of all the projects I've built were designed by me tinkering around until it looks good to me.I wanted to implement a design created by a professional designer and also have experience implementing a design file again so i went on frontend mentor to tackle another intermediate level challenge .",
-		live: "https://easy-bank-fem.netlify.app/",
-		coderepo: "https://github.com/Jcolejeff/easy-bank-page",
 	},
 ];
 export default Projects;

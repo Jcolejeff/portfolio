@@ -51,7 +51,7 @@ const ProjectTemplate = () => {
 						</tr>
 
 						<tr>
-							<th>
+							{/* <th>
 								<ColorWord color="grey">code:</ColorWord>
 							</th>
 							<td>
@@ -60,7 +60,7 @@ const ProjectTemplate = () => {
 										github repo
 									</a>
 								</ColorWord>
-							</td>
+							</td> */}
 						</tr>
 
 						<tr>
@@ -86,8 +86,8 @@ const ProjectTemplate = () => {
 					<p>{purpose}</p>
 					<h2>general requirement</h2>
 					<p>{requirement}</p>
-					<h2>stack explanation</h2>
-					<p>{explanation}</p>
+					{/* <h2>stack explanation</h2> */}
+					{/* <p>{explanation}</p> */}
 					<h2>challenges</h2>
 					<p>{challenge}</p>
 					<h2>Wrapping Up</h2>
@@ -95,7 +95,7 @@ const ProjectTemplate = () => {
 				</ProjectContent>
 
 				<OtherProjects>
-					<ColorWord color="grey">i also built </ColorWord>
+					<ColorWord color="grey">my other projects </ColorWord>
 					{Projects.filter((items) => items.id !== id).map((project) => {
 						const { id, title } = project;
 						return (

@@ -20,15 +20,19 @@ const Home = () => {
 
 				<h1>
 					<p>
-						my name is <ColorWord color="pink">ikwuh jeffery</ColorWord>
+						my name is <ColorWord color="pink">ikwuh jeffery enokela</ColorWord>
 					</p>
 					<p>
-						i'm a <ColorWord color="orange">frontend developer </ColorWord>
+						i'm a{" "}
+						<ColorWord color="orange">
+							{" "}
+							Software Engineer, primarily a frontend developer{" "}
+						</ColorWord>
 					</p>
 				</h1>
 
 				<p>
-					on the internet, i go by <ColorWord color="pink">jeffcole</ColorWord>.{" "}
+					on the internet, i go by <ColorWord color="pink">kela</ColorWord>.{" "}
 					i've always been the 'computer guy' even back in high school,i guess
 					i've always been fascinated by technology
 				</p>
@@ -44,17 +48,19 @@ const Home = () => {
 					my technical skills includes
 					<ColorWord color="orange">
 						{" "}
-						html & css, javascript, react, strapi, auth0, git, github,
-						styled-components, tailwindcss, node.js,
+						html & css, javascript, php, typescript, react, next.js, strapi,
+						auth0, git, github, styled-components, tailwindcss, node.js,
+						mongodb, mysql,laravel
 					</ColorWord>{" "}
 					and some other dot js libraries.
 				</p>
-
+				<p>some of my works include </p>
 				{Projects.map((item) => {
 					const { id, title, shortDesc } = item;
 					return (
 						<p key={id}>
-							i built <ColorWord color="yellow">{title}</ColorWord>- {shortDesc}{" "}
+							{/* i built */}
+							<ColorWord color="yellow">{title}</ColorWord>- {shortDesc}{" "}
 							<ColorWord color="blue">
 								<ProjectLink to={`/project/${id}`}>
 									{`>>> `}view project
@@ -80,7 +86,7 @@ const Home = () => {
 					you can{" "}
 					<ColorWord color="green">
 						<a
-							href="https://drive.google.com/file/d/13lAJTuTrnP0DxNyGzaU_NRpUWhWUwb-6/view"
+							href="https://drive.google.com/file/d/1zxFWY6cgxc8IzoigfNXaZ-ZFl1Re7hvu/view?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -111,8 +117,8 @@ const Home = () => {
 					</ColorWord>
 				</p>
 				<p>
-					apart from tech, i like to going to the gym, reading, and playing
-					music.
+					aside building stuffs and solving problems, i like to going to the
+					gym, reading, and listening to afrobeats.
 				</p>
 				<p className="built-by-me">
 					<ColorWord color="grey">
