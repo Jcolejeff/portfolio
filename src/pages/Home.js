@@ -86,7 +86,7 @@ const Home = () => {
 					you can{" "}
 					<ColorWord color="green">
 						<a
-							href="https://drive.google.com/file/d/1zxFWY6cgxc8IzoigfNXaZ-ZFl1Re7hvu/view?usp=sharing"
+							href="https://drive.google.com/file/d/1YAavuKVSOmQYnlQkB8tJbyI8xlGNOGg8/view?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
